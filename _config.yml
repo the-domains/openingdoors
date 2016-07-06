@@ -1,28 +1,40 @@
-name: 'Opening Doors: Cinematic Short'
 favicon: null
-layout_spectrum: 0.14071484957821667
-typography_spectrum: 0.11840787017717957
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: 'Opening Doors: Cinematic Short'
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#3C493F'
-    - '#7E8D85'
-    - '#B3BFB8'
-    - '#F0F7F4'
-    - '#A2E3C4'
-  brandStrength: 0.6635106662288308
-  lightness: 0.9001537947915494
-  saturation: 0.8236412210389972
-  rhythmicContrast: 0.45730410423129797
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 1
+  brandStrength: 0.6149302
+  lightness: 0.7491944
+  brandColors:
+    - '#FEF5EE'
+    - '#D6C8D7'
+    - '#486376'
+    - '#798BA1'
+    - '#15272E'
+  rhythmicContrast: 0.981203
+typography_spectrum: 0.06176154
+layout_spectrum: 0.2185821
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
